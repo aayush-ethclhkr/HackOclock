@@ -12,8 +12,8 @@ def generate_otp():
     return ''.join(random.choices(string.digits, k=6))
 
 def send_otp_via_gmail(receiver_email, otp):
-    sender_email = "aayushu90@gmail.com"
-    sender_password = "zpvxngyquicueoof"
+    sender_email = "your email"
+    sender_password = "your password"
     subject = "Your OTP Code"
     body = f"Your OTP is: {otp}"
 
